@@ -1,4 +1,3 @@
-local atZone = true
 local reeledIn = false
 local bite = false
 local catch
@@ -85,7 +84,7 @@ Citizen.CreateThread(function()
             if IsControlJustReleased(0, 51) then
                 ClearPedTasks(PlayerPedId())
                 if number >= param1 and number <= param2 then
-                    TriggerServerEvent('vrp_fishingjob:addreward', {source, catch})
+                    TriggerServerEvent('vrp_fishingjob:addreward', {catch})
                     number = 0
                     reeledIn = true
                     bite = false
