@@ -1,4 +1,7 @@
 # vrp_fishingjob
+
+I have made a private version of this script for a server so i will no longer be updating this one.
+
 Made by Thomas discord@Thomas.#4655
 
 Fishing job that replaces the current fisher job in the vrp framework
